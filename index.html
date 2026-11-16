@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Daymark is a private personal email workspace with optional, consent-based AI assistance.">
+  <title>Daymark | Personal email, with perspective</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="index.html" aria-label="Daymark home">daymark<span aria-hidden="true">.</span></a>
+    <nav aria-label="Main navigation"><a href="index.html" aria-current="page">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+  </header>
+  <main id="main" class="wrap">
+    <div class="intro">
+      <p class="eyebrow">Independent personal software project</p>
+      <h1>Daymark</h1>
+      <p class="lead">A place to keep up with your mail, remember what matters, and decide what happens next.</p>
+      <p class="intro-detail">Daymark brings connected email into a private workspace. Optional AI assistance can help find information, surface dates and obligations, and prepare actions for review.</p>
+      <p class="status"><span class="status-dot" aria-hidden="true"></span>Private deployment. No public sign-up.</p>
+    </div>
+    <section class="band" aria-labelledby="purpose">
+      <p class="section-label">The project</p>
+      <div><h2 id="purpose">Built around personal attention</h2>
+        <p>Daymark began with an ordinary problem: important things get lost in an inbox. The aim is a useful personal workspace, with the original messages close at hand and decisions still belonging to you.</p>
+        <p>The application supports Gmail and Outlook mail, search, attachments, drafts, contacts and calendars. Its optional AI features include account-specific summaries, extracted dates, semantic search and draft assistance. Availability depends on the connected account, configuration and permissions.</p>
+        <p>The current personal deployment is focused on reading and keeping mail up to date. This website is an information page, not a login portal or a public mailbox service.</p>
+      </div>
+    </section>
+    <section class="band" aria-labelledby="choices">
+      <p class="section-label">Your choices</p>
+      <div><h2 id="choices">Mail access and AI access are different</h2>
+        <ol class="choices">
+          <li><h3>Connect ordinary mail</h3><p>Google or Microsoft authorization lets Daymark use the account features you grant. Provider passwords are entered with the provider, not into Daymark.</p></li>
+          <li><h3>Choose agent access separately</h3><p>Gmail AI workflows use a separate Google authorization. Declining it leaves ordinary mail available.</p></li>
+          <li><h3>Decide whether data goes to a model</h3><p>Model processing requires a further in-app consent step showing the configured destination and data mode. Authorizing Google access does not enable AI processing.</p></li>
+        </ol>
+        <p><a href="privacy.html">Read the privacy notice</a> for the data involved, retention and disconnection controls.</p>
+      </div>
+    </section>
+    <section class="study" aria-labelledby="study-title">
+      <div class="study-heading"><h2 id="study-title">An early interface study</h2><span>Illustrative content only</span></div>
+      <figure>
+        <img src="assets/interface-study.png" width="1536" height="1024" loading="lazy" alt="Early Daymark design study showing a mail list and an assistant review panel in light and dark themes. All messages are illustrative.">
+        <figcaption>A design concept from the project's development, not a screenshot of a connected mailbox or a promise of the current layout.</figcaption>
+      </figure>
+    </section>
+    <section class="band" aria-labelledby="contact">
+      <p class="section-label">About &amp; contact</p>
+      <div><h2 id="contact">A personal project, openly described</h2>
+        <p>Daymark is maintained by <a href="https://github.com/THeORange-ui" rel="noreferrer">THeORange-ui</a>. It is not an official service of Google, Microsoft or any university.</p>
+        <p>The Google consent screen may still show the project's earlier name, <strong>Slackssistant</strong>. Daymark is the current product name. This page does not imply Google verification or endorsement.</p>
+        <p>For authorization or private-data questions, use the support email shown on the Google consent screen or the private contact channel supplied with your deployment. Do not post messages, attachments, credentials or other private information in public GitHub discussions.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap site-footer"><span>Daymark</span><nav aria-label="Footer"><a href="privacy.html">Privacy notice</a><a href="terms.html">Terms of use</a></nav><span>Published 16 November 2026</span></footer>
+</body>
+</html>
